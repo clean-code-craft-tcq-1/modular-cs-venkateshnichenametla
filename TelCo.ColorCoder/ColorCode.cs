@@ -5,6 +5,7 @@ namespace TelCo.ColorCoder
     public class ColorCode
     {
         private static Color[] colorMapMajor = new Color[] { Color.White, Color.Red, Color.Black, Color.Yellow, Color.Violet };
+
         public static Color[] ColorMapMajor
         {
             get { return colorMapMajor; }
@@ -12,6 +13,7 @@ namespace TelCo.ColorCoder
         }
 
         private static Color[] colorMapMinor = new Color[] { Color.Blue, Color.Orange, Color.Green, Color.Brown, Color.SlateGray };
+
         public static Color[] ColorMapMinor
         {
             get { return colorMapMinor; }
