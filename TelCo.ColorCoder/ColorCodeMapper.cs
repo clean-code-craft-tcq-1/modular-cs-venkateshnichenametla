@@ -4,10 +4,10 @@ using System.Text;
 using System.Linq;
 namespace TelCo.ColorCoder
 {
-    public class ColorCodePairHelper
+    public class ColorCodeMapper
     {
         private Dictionary<int, ColorCode> colorCodeReferences { get; set; }
-        public ColorCodePairHelper()
+        public ColorCodeMapper()
         {
             colorCodeReferences = new Dictionary<int, ColorCode>();
             int pairNumber = 1;
